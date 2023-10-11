@@ -87,6 +87,8 @@ input_folder = os.path.join(project_folder, 'given_images')
 
 image_files = [f for f in os.listdir(input_folder) if f.endswith(".jpg") or f.endswith(".png")]
 
+os.makedirs(os.path.join(project_folder, 'output_images'))
+
 for original_name in image_files:
 
     # original_name = 'BLM_profile.jpg'
