@@ -3,9 +3,9 @@ import os
 import pyperclip
 
 
-def show(img, name):
-    path = os.path.join('../debug', name + '.png')
-    img.save(path)
+# def show(img, name):
+#     path = os.path.join('../debug', name + '.png')
+#     img.save(path)
 
 
 def resize_image_proportionally(img, desired_width):
