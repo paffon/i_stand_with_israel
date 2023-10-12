@@ -95,12 +95,15 @@ for original_name in image_files:
 
     original_img = Image.open('../given_images/' + original_name)
 
-    arts = [
-        {'name': 'I_stand_with_Israel.png', 'x': 'middle', 'y': 'top', 'ratio': 1},
-        {'name': 'bottom_ribbon.png', 'x': 'middle', 'y': 'bottom', 'ratio': 1},
+    art_pieces = [
+        # {'name': 'i_stand_with_israel.png', 'x': 'right', 'y': 'top', 'ratio': 1},
+        # {'name': 'corner_flag.png', 'x': 'right', 'y': 'bottom', 'ratio': 0.45},
+        {'name': 'gays2.png', 'x': 'left', 'y': 'bottom', 'ratio': 0.45},
+        {'name': 'pig1.png', 'x': 'right', 'y': 'middle', 'ratio': 0.4},
+        {'name': 'loving_pigs.png', 'x': 'right', 'y': 'top', 'ratio': 0.6},
     ]
 
-    for art in arts:
+    for art in art_pieces:
         art_name = art['name']
         x_pos = art['x']
         y_pos = art['y']
