@@ -96,11 +96,12 @@ for original_name in image_files:
     original_img = Image.open('../given_images/' + original_name)
 
     art_pieces = [
-        # {'name': 'i_stand_with_israel.png', 'x': 'right', 'y': 'top', 'ratio': 1},
+        {'name': 'i_stand_with_israel.png', 'x': 'right', 'y': 'top', 'ratio': 1},
         # {'name': 'corner_flag.png', 'x': 'right', 'y': 'bottom', 'ratio': 0.45},
-        {'name': 'gays2.png', 'x': 'left', 'y': 'bottom', 'ratio': 0.45},
-        {'name': 'pig1.png', 'x': 'right', 'y': 'middle', 'ratio': 0.4},
-        {'name': 'loving_pigs.png', 'x': 'right', 'y': 'top', 'ratio': 0.6},
+        {'name': 'bottom_ribbon.png', 'x': 'center', 'y': 'bottom', 'ratio': 1},
+        # {'name': 'gays2.png', 'x': 'left', 'y': 'bottom', 'ratio': 0.45},
+        # {'name': 'pig1.png', 'x': 'right', 'y': 'middle', 'ratio': 0.4},
+        # {'name': 'loving_pigs.png', 'x': 'right', 'y': 'top', 'ratio': 0.6},
     ]
 
     for art in art_pieces:
